@@ -4,7 +4,7 @@
     text-align: center;
     
 };
-
-#tarea{
-    background-color: rgb(163, 20, 20);
-};
+.tarea{
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+}

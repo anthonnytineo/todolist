@@ -13,7 +13,7 @@ const Tarea = (props) => {
 
 
     return (
-        <div id="tarea" className="tarea">
+        <div className="tarea">
             <span>{props.tarea}</span><span onClick={borrarTarea}>X</span>
         </div>
     )

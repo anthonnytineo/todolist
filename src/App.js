@@ -23,14 +23,15 @@ function App() {
       <TareaForm 
       nuevaTarea={nuevaTarea} 
       />
-
-      {
-        listaTareas.map((e, index) => <Tarea  
-                              tarea={e}
-                              borrar={borrar}
-                              id={index}
-                              />)
-      }
+        <div className="lista">
+        {
+          listaTareas.map((e, index) => <Tarea  
+                                tarea={e}
+                                borrar={borrar}
+                                id={index}
+                                />)
+        }
+        </div>
     </div>
   );
 }

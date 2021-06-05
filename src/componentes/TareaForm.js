@@ -17,8 +17,8 @@ const TareaFrom = (props) => {
 
 
     return (
-        <div id="form">
-            <form className="form" onSubmit={submit}>
+        <div>
+            <form id="form" className="form" onSubmit={submit}>
                 <h1>todos</h1>
                 <input id="imput" value={inputText} onChange={manejarFormulario}/>
             </form>
