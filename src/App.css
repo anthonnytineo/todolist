@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(176, 174, 174, 0.399);   
+    background-color: rgba(212, 209, 209, 0.399);   
 }
 .form{
     padding: 40px;
@@ -15,7 +15,7 @@ body{
 
 .tarea{
     font-size: 20px;
-    margin: 20px 0px 15px 10px;
+    margin: 10px 0px 10px 10px;
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 7fr 1fr;
 }
